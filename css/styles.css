@@ -29,9 +29,12 @@ header {
   border-bottom: 1px solid var(--cornflower);
 }
 
+.link {
+  text-decoration: none;
+}
+
 .link-studio {
   font-family: "Raleway", sans-serif;
-  text-decoration: none;
   text-transform: uppercase;
   color: var(--iris);
   font-style: normal;
@@ -55,7 +58,6 @@ header {
 
 .list-link {
   color: var(--navy-blue);
-  text-decoration: none;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -66,7 +68,6 @@ header {
 .list-link:hover,
 .list-link:focus {
   color: var(--ocean);
-  text-decoration: none;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -76,8 +77,6 @@ header {
 
 .list-address {
   color: var(--slate);
-  text-decoration: none;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -88,12 +87,14 @@ header {
 .list-address:hover,
 .list-address:focus {
   color: var(--ocean);
-  text-decoration: none;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.main-address {
+  font-style: normal;
 }
 
 /* Main */
@@ -109,6 +110,7 @@ header {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
+  text-align: center;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
@@ -153,55 +155,64 @@ header {
 
 /* Main Studio Section 2 */
 
-.studio-sect-two {
-}
+/* .studio-sect-two {
+  text-align: center;
+} */
 
 .sect-title {
   color: var(--navy-blue);
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.11;
   text-align: center;
-  line-height: 1.07;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
-h3 {
+.title {
   color: var(--navy-blue);
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.07;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-h3 > p {
+.paragr {
+  color: var(--slate);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  color: var(--slate);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Main Section 3 */
 
+/* .studio-sect-tree {
+
+} */
+
 /* Main Section 4 */
 
-.our-team-section {
+.studio-sect-four {
   background-color: var(--cloud);
 }
 
-.our-team-class {
+.list-sect-four {
   background-color: var(--white);
 }
 
-/* Portfolio Section 2 */
+/* Portfolio Section */
 
 .main-button-portfolio {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--iris);
   height: 48px;
   background-color: var(--cloud);
@@ -222,12 +233,8 @@ h3 > p {
   cursor: pointer;
 }
 
-/* Portfolio Section 3 */
-
-.portfolio-class {
+.list-portfolio {
   background: var(--white);
-  /* CORNFLOWER */
-
   border: 1px solid var(--cornflower);
 }
 
