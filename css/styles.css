@@ -19,6 +19,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--slate);
 }
 
 /* Header */
@@ -28,65 +29,92 @@ header {
   border-bottom: 1px solid var(--cornflower);
 }
 
-.nav-logo {
+.link-studio {
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   color: var(--iris);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
-.nav-logo-studio-h {
+.link-studio-h {
   color: var(--navy-blue);
 }
 
-.nav-logo-studio-f {
+.link-studio-f {
   color: var(--cloud);
 }
 
-.menu-link {
+.list {
+  list-style: none;
+}
+
+.list-link {
   color: var(--navy-blue);
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.menu-link:hover,
-.menu-link:focus,
-.address-link:hover,
-.address-link:focus {
+.list-link:hover,
+.list-link:focus {
   color: var(--ocean);
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.address-link {
+.list-address {
   color: var(--slate);
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.list-address:hover,
+.list-address:focus {
+  color: var(--ocean);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Main */
 
-/* Main Section 1 */
-h1 {
+/* Main Studio Section 1 */
+
+.studio-sect-one {
+  background-color: var(--navy-blue);
+}
+
+.main-title {
+  color: var(--white);
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .main-button-index {
+  font-family: "Roboto", sans-serif;
   border: none;
   width: 169px;
   height: 56px;
@@ -99,7 +127,8 @@ h1 {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
@@ -117,26 +146,33 @@ h1 {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
-/* Main Section 2 */
+/* Main Studio Section 2 */
 
-h2 {
+.studio-sect-two {
+}
+
+.sect-title {
+  color: var(--navy-blue);
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
-  color: var(--navy-blue);
+  text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 h3 {
+  color: var(--navy-blue);
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  color: var(--navy-blue);
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 h3 > p {
