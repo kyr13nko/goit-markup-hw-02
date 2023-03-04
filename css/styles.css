@@ -37,8 +37,6 @@ header {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: var(--iris);
-  font-style: normal;
-  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -58,7 +56,6 @@ header {
 
 .list-link {
   color: var(--navy-blue);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -68,16 +65,10 @@ header {
 .list-link:hover,
 .list-link:focus {
   color: var(--ocean);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .list-address {
   color: var(--slate);
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   line-height: 1.5;
@@ -87,19 +78,15 @@ header {
 .list-address:hover,
 .list-address:focus {
   color: var(--ocean);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .main-address {
   font-style: normal;
 }
 
-/* Main */
+/* Studio Main */
 
-/* Main Studio Section 1 */
+/* Studio Main Section 1 */
 
 .studio-sect-one {
   background-color: var(--navy-blue);
@@ -107,8 +94,6 @@ header {
 
 .main-title {
   color: var(--white);
-  font-style: normal;
-  font-weight: 700;
   font-size: 56px;
   text-align: center;
   line-height: 1.07;
@@ -117,17 +102,14 @@ header {
 
 .main-button-index {
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
   border: none;
   width: 169px;
   height: 56px;
-  left: 20px;
-  top: 20px;
   background: var(--iris);
   color: var(--white);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -136,33 +118,17 @@ header {
 
 .main-button-index:hover,
 .main-button-index:focus {
-  border: none;
-  width: 169px;
-  height: 56px;
-  left: 20px;
-  top: 20px;
   background: var(--ocean);
-  color: var(--white);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
 }
 
-/* Main Studio Section 2 */
+/* Studio Main Section 2 */
 
 /* .studio-sect-two {
-  text-align: center;
+  
 } */
 
 .sect-title {
   color: var(--navy-blue);
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -172,8 +138,6 @@ header {
 
 .title {
   color: var(--navy-blue);
-  font-style: normal;
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -181,20 +145,18 @@ header {
 
 .paragr {
   color: var(--slate);
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-/* Main Section 3 */
+/* Studio Main Section 3 */
 
 /* .studio-sect-tree {
 
 } */
 
-/* Main Section 4 */
+/* Studio Main Section 4 */
 
 .studio-sect-four {
   background-color: var(--cloud);
@@ -206,11 +168,10 @@ header {
 
 /* Portfolio Section */
 
-/* Buttons  */
+/* Portfolio Buttons  */
 
 .main-button-portfolio {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -224,18 +185,11 @@ header {
 }
 
 .main-button-portfolio:active {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
   color: var(--white);
-  height: 48px;
   background-color: var(--ocean);
-  border-radius: 4px;
-  cursor: pointer;
 }
 
-/* Список Картинок */
+/* Portfolio Picture List */
 
 .list-portfolio {
   background: var(--white);
@@ -250,8 +204,7 @@ header {
 
 .main-footer > p {
   color: var(--cornflower);
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
