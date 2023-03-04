@@ -206,6 +206,8 @@ header {
 
 /* Portfolio Section */
 
+/* Buttons  */
+
 .main-button-portfolio {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -233,6 +235,8 @@ header {
   cursor: pointer;
 }
 
+/* Список Картинок */
+
 .list-portfolio {
   background: var(--white);
   border: 1px solid var(--cornflower);
@@ -240,11 +244,11 @@ header {
 
 /* Footer */
 
-footer {
+.main-footer {
   background-color: var(--navy-blue-modal);
 }
 
-footer > p {
+.main-footer > p {
   color: var(--cornflower);
   font-style: normal;
   font-weight: 400;
